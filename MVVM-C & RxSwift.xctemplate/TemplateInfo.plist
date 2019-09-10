@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>Identifier</key>
+	<string>com.apple.dt.unit.mvvmcrxswift</string>
+	<key>Ancestors</key>
+	<array>
+		<string>com.apple.dt.unit.coreDataCocoaTouchApplication</string>
+	</array>
+	<key>Concrete</key>
+	<true/>
+	<key>Description</key>
+	<string>Base app with MVVM-C architecture and RxSwift framework</string>
+	<key>SortOrder</key>
+	<integer>1</integer>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>languageChoice</string>
+			<key>Units</key>
+			<dict>
+				<key>Objective-C</key>
+				<dict>
+					<key>Nodes</key>
+					<array>
+					</array>
+				</dict>
+				<key>Swift</key>
+				<dict>
+					<key>Nodes</key>
+					<array>
+						<string>Coordinators/MainCoordinator.swift</string>
+						<string>UI/Sample/SampleViewController.swift</string>
+						<string>UI/Sample/SampleViewModel.swift</string>
+						<string>UI/Sample/Sample.storyboard</string>
+						<string>Protocols/Storyboarded.swift</string>
+						<string>Protocols/Coordinator.swift</string>
+                        <string>Helpers/Reachability.swift</string>
+                        <string>Helpers/UserDefaults+Template.swift</string>
+                        <string>Helpers/UICollectionViewExtensions.swift</string>
+                        <string>Helpers/UIViewControllerExtensions.swift</string>
+                        <string>Helpers/StringExtensions.swift</string>
+						<string>Networking/Services/Authentication.swift</string>
+						<string>Networking/Response models/Root.swift</string>
+						<string>Networking/Response models/RootData.swift</string>
+						<string>Networking/Response models/User.swift</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+	</array>
+	<key>Definitions</key>
+    <dict>
+        <key>Coordinators/MainCoordinator.swift</key>
+        <dict>
+            <key>Group</key>
+            <array>
+                <string>Coordinators</string>
+            </array>
+            <key>Path</key>
+            <string>Coordinators/MainCoordinator.swift</string>
+        </dict>
+        <key>UI/Sample/SampleViewController.swift</key>
+        <dict>
+            <key>Group</key>
+            <array>
+                <string>UI</string>
+                <string>Sample</string>
+            </array>
+            <key>Path</key>
+            <string>UI/Sample/SampleViewController.swift</string>
+        </dict>
+        <key>UI/Sample/SampleViewModel.swift</key>
+        <dict>
+            <key>Group</key>
+            <array>
+                <string>UI</string>
+                <string>Sample</string>
+            </array>
+            <key>Path</key>
+            <string>UI/Sample/SampleViewModel.swift</string>
+        </dict>
+        <key>UI/Sample/Sample.storyboard</key>
+        <dict>
+            <key>Group</key>
+            <array>
+                <string>UI</string>
+                <string>Sample</string>
+            </array>
+            <key>Path</key>
+            <string>UI/Sample/Sample.storyboard</string>
+        </dict>
+        <key>Protocols/Storyboarded.swift</key>
+        <dict>
+            <key>Group</key>
+            <array>
+                <string>Protocols</string>
+            </array>
+            <key>Path</key>
+            <string>Protocols/Storyboarded.swift</string>
+        </dict>
+        <key>Protocols/Coordinator.swift</key>
+        <dict>
+            <key>Group</key>
+            <array>
+                <string>Protocols</string>
+            </array>
+            <key>Path</key>
+            <string>Protocols/Coordinator.swift</string>
+        </dict>
+        <key>Helpers/Reachability.swift</key>
+        <dict>
+            <key>Group</key>
+            <array>
+                <string>Helpers</string>
+            </array>
+            <key>Path</key>
+            <string>Helpers/Reachability.swift</string>
+        </dict>
+        <key>Helpers/UserDefaults+Template.swift</key>
+        <dict>
+            <key>Group</key>
+            <array>
+                <string>Helpers</string>
+            </array>
+            <key>Path</key>
+            <string>Helpers/UserDefaults+Template.swift</string>
+        </dict>
+        <key>Helpers/UICollectionViewExtensions.swift</key>
+        <dict>
+            <key>Group</key>
+            <array>
+                <string>Helpers</string>
+            </array>
+            <key>Path</key>
+            <string>Helpers/UICollectionViewExtensions.swift</string>
+        </dict>
+        <key>Helpers/UIViewControllerExtensions.swift</key>
+        <dict>
+            <key>Group</key>
+            <array>
+                <string>Helpers</string>
+            </array>
+            <key>Path</key>
+            <string>Helpers/UIViewControllerExtensions.swift</string>
+        </dict>
+        <key>Helpers/StringExtensions.swift</key>
+        <dict>
+            <key>Group</key>
+            <array>
+                <string>Helpers</string>
+            </array>
+            <key>Path</key>
+            <string>Helpers/StringExtensions.swift</string>
+        </dict>
+        <key>Networking/Services/Authentication.swift</key>
+        <dict>
+            <key>Group</key>
+            <array>
+                <string>Networking</string>
+                <string>Services</string>
+            </array>
+            <key>Path</key>
+            <string>Networking/Services/Authentication.swift</string>
+        </dict>
+        <key>Networking/Response models/Root.swift</key>
+        <dict>
+            <key>Group</key>
+            <array>
+                <string>Networking</string>
+                <string>Response models</string>
+            </array>
+            <key>Path</key>
+            <string>Networking/Response models/Root.swift</string>
+        </dict>
+        <key>Networking/Response models/RootData.swift</key>
+        <dict>
+            <key>Group</key>
+            <array>
+                <string>Networking</string>
+                <string>Response models</string>
+            </array>
+            <key>Path</key>
+            <string>Networking/Response models/RootData.swift</string>
+        </dict>
+        <key>Networking/Response models/User.swift</key>
+        <dict>
+            <key>Group</key>
+            <array>
+                <string>Networking</string>
+                <string>Response models</string>
+            </array>
+            <key>Path</key>
+            <string>Networking/Response models/User.swift</string>
+        </dict>
+        <key>AppDelegate.swift:implementation:properties:window</key>
+        <string>var window: UIWindow?
+    var coordinator: MainCoordinator?</string>
+        <key>AppDelegate.swift:implementation:methods:applicationdidFinishLaunchingWithOptions:body</key>
+        <string>let navController = UINavigationController()
+    coordinator = MainCoordinator(navigationController: navController)
+    coordinator?.start()
+
+    window = UIWindow(frame: UIScreen.main.bounds)
+    window?.rootViewController = navController
+    window?.makeKeyAndVisible()</string>
+    </dict>
+</dict>
+</plist>
