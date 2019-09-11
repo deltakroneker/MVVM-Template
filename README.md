@@ -2,6 +2,9 @@
 
 My approach in building iOS apps with MVVM-C architecture and RxSwift framework.
 
+<img src="https://miro.medium.com/max/2868/1*lrIeU_YrGry3rDKH1tLnjw.png" width="50%"/>
+
+
 ## Project navigation style:
 
 - AppDelegate.swift
