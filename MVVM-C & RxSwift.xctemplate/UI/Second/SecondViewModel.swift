@@ -1,5 +1,5 @@
 //
-//  SampleViewModel.swift
+//  SecondViewModel.swift
 //  MVVM-C & RxSwift Template
 //
 //  Created by K7 Tech Agency
@@ -10,7 +10,7 @@ import Foundation
 import RxSwift
 import RxCocoa
 
-class SampleViewModel {
+class SecondViewModel {
     
     // MARK: - Private
     

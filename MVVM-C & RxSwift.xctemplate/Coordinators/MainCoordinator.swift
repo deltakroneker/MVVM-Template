@@ -9,6 +9,7 @@
 import UIKit
 
 class MainCoordinator: Coordinator {
+    
     var navigationController: UINavigationController
     var children = [Coordinator]()
 
@@ -17,7 +18,7 @@ class MainCoordinator: Coordinator {
     }
     
     func start() {
-         let vc = ViewController.instantiate()
+         let vc = ViewController.instantiate(from: .first)
          vc.coordinator = self
          navigationController.pushViewController(vc, animated: false)
     }

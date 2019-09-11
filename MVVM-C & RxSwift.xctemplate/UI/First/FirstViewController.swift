@@ -1,5 +1,5 @@
 //
-//  SampleViewController.swift
+//  FirstViewController.swift
 //  MVVM-C & RxSwift Template
 //
 //  Created by K7 Tech Agency
@@ -11,7 +11,7 @@ import RxSwift
 import RxCocoa
 import RxDataSources
 
-class SampleViewController: UIViewController, Storyboarded {
+class FirstViewController: UIViewController, Storyboarded {
 
     // MARK: - Outlets
 
@@ -51,4 +51,4 @@ class SampleViewController: UIViewController, Storyboarded {
 
 // MARK: - <#Sample Protocol#> Extension
 
-extension SampleViewController {}
+extension FirstViewController {}
