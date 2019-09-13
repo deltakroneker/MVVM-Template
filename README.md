@@ -7,31 +7,19 @@ My approach in building iOS apps with MVVM-C architecture and RxSwift framework.
 
 ## Project navigation style:
 
-- AppDelegate.swift
-
+- **AppDelegate.swift**
+- Base/
 - Coordinators/
-  - **MainCoordinator.swift**
-  - ...
 - UI/
-  - Home/
-    + **Home.storyboard**
-    + **HomeViewController.swift**
-    + **HomeViewModel.swift**
+  - First/
+  - Second/
   - ...
 - Networking/
   - Services/
-    - **Authentication.swift**
-    - ...
   - Response models/
-    - **User.swift**
-    - ...
 - Protocols/
 - Helpers/
 - Resources/
-  - **Assets.xcassets**
-  - **LaunchScreen.storyboard**
-  - **Info.plist**
-  - ...
   
 ---
 
